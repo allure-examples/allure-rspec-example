@@ -7,8 +7,7 @@ To launch this example you should install Ruby and the allure-rspec gem.
 ### 1. Install RVM:
 
 ```bash
-\curl -L https://get.rvm.io | bash -s stable
-. ~/.bashrc
+$ \curl -L https://get.rvm.io | bash -s stable
 ```
 
 If you are the Mac user, perhaps you will need to add theese lines into your .bashrc file manually:
@@ -21,18 +20,18 @@ fi
 
 ### 2. Install Ruby
 ```bash
-rvm install ruby-2.0
-rvm use ruby-2.0
+$ rvm install ruby-2.0
+$ rvm use ruby-2.0
 ```
 
 ### 4. Install bundler
 ```bash
-gem install bundler
+$ gem install bundler
 ```
 
 ### 5. Install all the required dependencies
 ```bash
-bundle install
+$ bundle install
 ```
 
 ### 6. Run the specs
