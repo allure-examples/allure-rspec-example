@@ -1,7 +1,6 @@
-require 'spec_helper'
-require 'tempfile'
+require_relative '../spec_helper'
 
-describe "Some usecase 2" do
+describe "Some usecase 3", :feature => "test_feature_2" do
 
   before :all do
     puts "OK"

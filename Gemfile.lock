@@ -13,6 +13,7 @@ GEM
       ffi (~> 1.0, >= 1.0.11)
     diff-lcs (1.2.5)
     ffi (1.6.0)
+    ffi (1.6.0-java)
     macaddr (1.7.1)
       systemu (~> 2.6.2)
     mimemagic (0.2.1)
@@ -20,6 +21,10 @@ GEM
     multi_json (1.7.2)
     nokogiri (1.6.3.1)
       mini_portile (= 0.6.0)
+    nokogiri (1.6.3.1-java)
+    parallel (1.2.2)
+    parallel_tests (1.0.3)
+      parallel
     rspec (2.14.1)
       rspec-core (~> 2.14.0)
       rspec-expectations (~> 2.14.0)
@@ -40,8 +45,10 @@ GEM
     websocket (1.0.7)
 
 PLATFORMS
+  java
   ruby
 
 DEPENDENCIES
   allure-rspec (~> 0.5.2)
+  parallel_tests
   selenium-webdriver

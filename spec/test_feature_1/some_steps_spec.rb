@@ -1,4 +1,4 @@
-require 'spec_helper'
+require_relative '../spec_helper'
 require 'tempfile'
 
 describe "Some usecase 1", :feature => "Some steps spec", :severity => :normal do
