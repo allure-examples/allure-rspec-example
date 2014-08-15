@@ -7,10 +7,12 @@ describe "Some usecase 4", :feature => "test_feature_2" do
   end
 
   it "10 cannot be greater than 19" do
+    sleep rand(5)
     10.should > 19
   end
 
   it "4 must not be equal to 5" do
+    sleep rand(5)
     5.should == 4
   end
 end
