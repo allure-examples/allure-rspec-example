@@ -1,5 +1,5 @@
 # Allure RSpec Example
-This example demonstrates how to use Allure [RSpec](http://rspec.info/) adaptor. It also shows the integration with the [parallel_tests gem](https://github.com/grosser/parallel_tests).
+This example demonstrates how to use Allure [RSpec](http://rspec.info/) adaptor. It also shows the integration with the [parallel_tests](https://github.com/grosser/parallel_tests) gem.
 
 ## Usage
 To launch this example you should install Ruby and the allure-rspec gem. 
