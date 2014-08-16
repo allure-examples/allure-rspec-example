@@ -36,6 +36,6 @@ $ bundle install
 
 ### 6. Run the specs in parallel
 ```bash
-$ rspec
+$ parallel_rspec spec/
 ```
 You should see failed tests and generated Allure XML files in **allure** directory. Now you can generate the report using any of the [available facilities](https://github.com/allure-framework/allure-core/wiki#generating-report).
