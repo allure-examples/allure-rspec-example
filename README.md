@@ -4,7 +4,9 @@ This example demonstrates how to use Allure [RSpec](http://rspec.info/) adaptor.
 ## Usage
 To launch this example you should install Ruby and the allure-rspec gem. 
 
-### 1. Install RVM:
+### 1. Clone this project
+
+### 2. Install RVM:
 
 ```bash
 $ \curl -L https://get.rvm.io | bash -s stable
@@ -18,7 +20,7 @@ if [[ -d "$HOME/.rvm" ]]; then
 fi
 ```
 
-### 2. Install Ruby
+### 3. Install Ruby
 ```bash
 $ rvm install ruby-2.0
 $ rvm use ruby-2.0
