@@ -8,11 +8,11 @@ describe "Some usecase 2", :feature => "test_feature_1" do
 
   it "10 cannot be greater than 19" do
     sleep rand(5)
-    10.should > 19
+    expect(10).to be > 19
   end
 
   it "4 must not be equal to 5" do
     sleep rand(5)
-    5.should == 4
+    expect(5).to be eql(4)
   end
 end

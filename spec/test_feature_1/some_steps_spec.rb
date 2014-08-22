@@ -7,24 +7,24 @@ describe "Some usecase 1", :feature => "Some steps spec", :severity => :normal d
     puts "Before step #{s.current_step}"
   end
 
-  it "should have some steps", :story => ["first story", "first another story"] do
+  it "should have some steps", :story => ["first story", "first another story"] do |t|
     sleep rand(5)
-    attach_file "test-file1", Tempfile.new("test")
+    t.attach_file "test-file1", Tempfile.new("test")
 
-    step "step1" do
+    t.step "step1" do
       sleep rand(5)
-      1.should == 1
+      expect(1).to be eql(1)
     end
 
-    step "step2" do
+    t.step "step2" do
       sleep rand(5)
-      0.should == 1
+      expect(0).to be eql(1)
     end
   end
 
 
   it "string 'aaa' cannot be equal to string 'bbb'", :story => "second story", :severity => :critical do
     sleep rand(5)
-    "aaa".should == "bbb"
+    expect("aaa").to be eql("bbb")
   end
 end
