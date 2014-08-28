@@ -1,10 +1,12 @@
 # Allure RSpec Example
-This example demonstrates how to use Allure [RSpec](http://rspec.info/) adaptor.
+This example demonstrates how to use Allure [RSpec](http://rspec.info/) adaptor. It also shows the integration with the [parallel_tests](https://github.com/grosser/parallel_tests) gem.
 
 ## Usage
 To launch this example you should install Ruby and the allure-rspec gem. 
 
-### 1. Install RVM:
+### 1. Clone this project
+
+### 2. Install RVM:
 
 ```bash
 $ \curl -L https://get.rvm.io | bash -s stable
@@ -18,7 +20,7 @@ if [[ -d "$HOME/.rvm" ]]; then
 fi
 ```
 
-### 2. Install Ruby
+### 3. Install Ruby
 ```bash
 $ rvm install ruby-2.0
 $ rvm use ruby-2.0
@@ -34,8 +36,8 @@ $ gem install bundler
 $ bundle install
 ```
 
-### 6. Run the specs
+### 6. Run the specs in parallel
 ```bash
-$ rspec
+$ parallel_rspec spec/
 ```
-You should see failed tests and generated Allure XML files in **allure** directory.
+You should see failed tests and generated Allure XML files in **allure** directory. Now you can generate the report using any of the [available facilities](https://github.com/allure-framework/allure-core/wiki#generating-report).
