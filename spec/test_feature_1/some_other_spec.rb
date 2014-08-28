@@ -2,7 +2,7 @@ require_relative '../spec_helper'
 
 describe "Some usecase 2", :feature => "test_feature_1" do
 
-  before :all do
+  before :context do
     puts "OK"
   end
 

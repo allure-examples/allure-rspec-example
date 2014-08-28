@@ -13,7 +13,7 @@ describe "Some usecase 1", :feature => "Some steps spec", :severity => :normal d
 
     t.step "step1" do
       sleep rand(5)
-      expect(1).to be eql(1)
+      expect(1).to eq(1)
     end
 
     t.step "step2" do

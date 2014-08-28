@@ -9,6 +9,7 @@ output
 
 target
 allure
+allure-report
 .idea
 *.iml
 *.ipr
