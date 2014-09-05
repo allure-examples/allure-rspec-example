@@ -15,4 +15,9 @@ describe "Some usecase 2", :feature => "test_feature_1" do
     sleep rand(5)
     expect(5).to be eql(4)
   end
+
+  it "should pass" do 
+    sleep rand(5)
+    expect(5).to be eql(5)
+  end
 end

@@ -12,4 +12,8 @@ describe 'test_feature', :feature => "test_feature_0" do
       expect(10).to be > 19
     end
   end
+
+  it "must be pending example"
+
+  it "must be pending example 2", :story => "Another story"
 end

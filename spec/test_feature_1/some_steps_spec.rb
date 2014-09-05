@@ -27,4 +27,9 @@ describe "Some usecase 1", :feature => "Some steps spec", :severity => :normal d
     sleep rand(5)
     expect("aaa").to be eql("bbb")
   end
+
+
+  it "must be broken test case" do
+    raise "Unexpected exception"
+  end
 end
