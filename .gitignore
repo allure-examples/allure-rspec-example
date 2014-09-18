@@ -1,5 +1,7 @@
 *.class
 output
+*.failures
+log
 
 # Package Files #
 *.jar

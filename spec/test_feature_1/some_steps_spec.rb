@@ -27,4 +27,11 @@ describe "Some usecase 1", :feature => "Some steps spec", :severity => :normal d
     sleep rand(5)
     "aaa".should == "bbb"
   end
+
+
+  it "should be passed", :story => "second story", :severity => :critical do
+    sleep rand(5)
+    "bbb".should == "bbb"
+  end
+
 end
