@@ -7,16 +7,16 @@ describe "Some usecase 1", :feature => "Some steps spec", :severity => :normal d
     puts "Before step #{s.current_step}"
   end
 
-  it "should have some steps", :story => ["first story", "first another story"] do
+  it "should have some steps", :story => ["first story", "first another story"] do |e|
     sleep rand(5)
-    attach_file "test-file1", Tempfile.new("test")
+    e.attach_file "test-file1", Tempfile.new("test")
 
-    step "step1" do
+    e.step "step1" do
       sleep rand(5)
       1.should == 1
     end
 
-    step "step2" do
+    e.step "step2" do
       sleep rand(5)
       0.should == 1
     end

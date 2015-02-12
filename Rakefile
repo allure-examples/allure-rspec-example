@@ -1,7 +1,7 @@
 def generate_report
   puts "Generating report"
   report = "log/screenshots --report-path log/reports"
-  system("allure generate #{report}")
+  system("allure generate -v 1.4.4 #{report}")
 end
 
 def launch(params = {})
