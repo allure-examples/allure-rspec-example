@@ -7,7 +7,7 @@ RSpec.configure do |c|
 end
 
 AllureRSpec.configure do |c|
-  c.output_dir = "allure"
+  c.output_dir = "log/screenshots"
   c.clean_dir = false
 end
 
