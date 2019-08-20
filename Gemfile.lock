@@ -21,8 +21,8 @@ GEM
     nokogiri (1.6.6.2)
       mini_portile (~> 0.6.0)
     nokogiri (1.6.6.2-java)
-    parallel (1.3.4)
-    parallel_tests (1.0.9)
+    parallel (1.17.0)
+    parallel_tests (2.29.2)
       parallel
     rspec (3.2.0)
       rspec-core (~> 3.2.0)
