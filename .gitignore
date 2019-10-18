@@ -1,18 +1,1 @@
-*.class
-output
-*.failures
-log
-
-# Package Files #
-*.jar
-*.war
-*.ear
-*.gem
-
-target
-allure
-allure-report
-.idea
-*.iml
-*.ipr
-*.iws
+report

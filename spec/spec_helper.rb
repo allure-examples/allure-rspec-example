@@ -1,14 +1,11 @@
+# frozen_string_literal: true
+
 require 'rspec'
 require 'allure-rspec'
-require 'parallel_tests'
 
-RSpec.configure do |c|
-  c.include AllureRSpec::Adaptor
+Allure.configure do |c|
+  c.results_directory = 'report/allure-results'
+  c.clean_results_directory = true
+  c.link_tms_pattern = 'http://www.jira.com/browse/{}'
+  c.link_issue_pattern = 'http://www.jira.com/browse/{}'
 end
-
-AllureRSpec.configure do |c|
-  c.output_dir = "log/screenshots"
-  c.clean_dir = false
-end
-
-ParallelTests.first_process? ? FileUtils.rm_rf(AllureRSpec::Config.output_dir) : sleep(1)
