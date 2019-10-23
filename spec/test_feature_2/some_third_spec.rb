@@ -1,18 +1,13 @@
+# frozen_string_literal: true
+
 require_relative '../spec_helper'
 
-describe "Some usecase 3", :feature => "test_feature_2" do
-
-  before :context do
-    puts "OK"
-  end
-
-  it "10 cannot be greater than 19" do
-    sleep rand(5)
+describe 'Some usecase 3' do
+  it '10 cannot be greater than 19' do
     expect(10).to be > 19
   end
 
-  it "4 must not be equal to 5" do
-    sleep rand(5)
-    expect(5).to be eql(4)
+  it '4 must not be equal to 5' do
+    expect(5).to eq(4)
   end
 end
