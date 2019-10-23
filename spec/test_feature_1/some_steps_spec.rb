@@ -4,7 +4,7 @@ require_relative '../spec_helper'
 
 describe 'Some usecase 1', severity: :normal do
   it 'should have some steps' do |t|
-    Allure.run_step 'step1' do
+    t.run_step 'step1' do
       t.add_attachment(
         name: 'attachment',
         source: 'Some string',
