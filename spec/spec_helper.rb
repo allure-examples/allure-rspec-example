@@ -3,7 +3,7 @@
 require 'rspec'
 require 'allure-rspec'
 
-Allure.configure do |c|
+AllureRspec.configure do |c|
   c.results_directory = 'report/allure-results'
   c.clean_results_directory = true
   c.link_tms_pattern = 'https://example.org/tms/{}'

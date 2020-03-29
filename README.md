@@ -44,7 +44,7 @@ bundle install
 ### 6. Run the specs in parallel
 
 ```bash
-bundle exec rake test
+bundle exec rspec
 ```
 
 You should see generated Allure json files in **report/allure-results** directory. Now you can generate the report using any of the [available facilities](https://docs.qameta.io/allure/#_reporting).
