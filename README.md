@@ -1,8 +1,5 @@
 # Allure RSpec Example
 
-Warning!\
-This example uses 2.13.5.rc version of adapter which has minor difference in configuration. For example with v2.13.4, refer to this [commit](https://github.com/allure-examples/allure-rspec-example/tree/de997776df969b6aa2591e51e6f392aded705afa)
-
 This example demonstrates how to use Allure [RSpec](http://rspec.info/) adaptor.
 
 ## Usage
