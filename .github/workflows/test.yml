@@ -24,4 +24,4 @@ jobs:
           bundler-cache: true
 
       - name: Test
-        run: bundle exec rspec
+        run: bundle exec rspec spec/test_feature_4/some_steps_spec.rb
