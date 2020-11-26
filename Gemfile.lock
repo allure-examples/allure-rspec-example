@@ -1,15 +1,15 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    allure-rspec (2.13.6.4)
-      allure-ruby-commons (= 2.13.6.4)
+    allure-rspec (2.13.7)
+      allure-ruby-commons (= 2.13.7)
       rspec-core (>= 3.8, < 4)
       ruby2_keywords (~> 0.0.2)
-    allure-ruby-commons (2.13.6.4)
-      mime-types (>= 3.3)
-      oj (>= 3.10)
+    allure-ruby-commons (2.13.7)
+      mime-types (>= 3.3, < 4)
+      oj (>= 3.10, < 4)
       require_all (>= 2, < 4)
-      uuid (>= 2.3)
+      uuid (>= 2.3, < 3)
     diff-lcs (1.4.4)
     macaddr (1.7.2)
       systemu (~> 2.6.5)
@@ -40,7 +40,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  allure-rspec (~> 2.13.6)
+  allure-rspec (~> 2.13.7)
   rspec (~> 3.10)
 
 BUNDLED WITH
