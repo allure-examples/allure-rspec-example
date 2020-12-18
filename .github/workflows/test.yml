@@ -26,4 +26,4 @@ jobs:
       - name: Test
         run: bundle exec rspec
         env:
-          ALLURE_TESTPLAN_PATH: spec/fixture
+          ALLURE_TESTPLAN_PATH: spec/fixture/testplan.json
