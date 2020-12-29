@@ -9,4 +9,3 @@ updates:
   - andrcuns
   allow:
   - dependency-type: direct
-  - dependency-type: indirect
