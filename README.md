@@ -8,25 +8,14 @@ To launch this example you should install Ruby and the allure-rspec gem.
 
 ### 1. Clone this project
 
-### 2. Install RVM
+### 2. Install rbenv
 
-```bash
-curl -L https://get.rvm.io | bash -s stable
-```
-
-If you are the Mac user, perhaps you will need to add these lines into your .bashrc file manually:
-
-```bash
-if [[ -d "$HOME/.rvm" ]]; then
-  source "$HOME/.rvm/scripts/rvm"
-fi
-```
+[Installation](https://github.com/rbenv/rbenv#installation)
 
 ### 3. Install Ruby
 
 ```bash
-rvm install ruby-2.6
-rvm use ruby-2.6
+rbenv install 3.0.0
 ```
 
 ### 4. Install bundler
