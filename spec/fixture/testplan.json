@@ -12,6 +12,14 @@
     {
       "id": "1236",
       "selector": "feature 4 should pass"
+    },
+    {
+      "id": "",
+      "selector": "test_case_1"
+    },
+    {
+      "id": "",
+      "selector": "test_case_2"
     }
   ]
 }

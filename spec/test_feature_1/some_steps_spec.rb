@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require_relative '../spec_helper'
-
 describe 'Some usecase 1', severity: :normal do
   it 'should have some steps' do |t|
     t.run_step 'step1' do

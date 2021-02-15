@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require_relative '../spec_helper'
-
 describe 'feature 4', severity: :normal, allure_id: '123' do
   it 'should have some steps' do |t|
     t.run_step 'step1' do

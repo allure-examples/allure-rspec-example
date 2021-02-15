@@ -2,6 +2,9 @@
 
 require 'rspec'
 require 'allure-rspec'
+require 'pry'
+
+require_relative 'test_helper'
 
 AllureRspec.configure do |c|
   c.results_directory = 'report/allure-results'
@@ -11,10 +14,10 @@ AllureRspec.configure do |c|
 end
 
 RSpec.configure do |config|
-  config.after(:example) do
-    Allure.step(name: 'After hook step')
+  config.before(:example) do
+    Allure.step(name: 'Global before step')
     Allure.add_attachment(
-      name: 'After hook attach',
+      name: 'Global test attachment',
       source: 'Attachment',
       type: Allure::ContentType::TXT,
       test_case: true

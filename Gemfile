@@ -2,5 +2,6 @@
 
 source 'https://rubygems.org'
 
-gem 'allure-rspec', '~> 2.13.8'
+gem 'allure-rspec', '~> 2.13.8.2'
+gem 'pry', '~> 0.14.0'
 gem 'rspec', '~> 3.10'

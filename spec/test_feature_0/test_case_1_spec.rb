@@ -1,21 +1,45 @@
 # frozen_string_literal: true
 
-require_relative '../spec_helper'
+describe 'allure features' do
+  extend AllureStepAnnotation
 
-describe 'test_feature', tms_1: 'QA-123', tms_2: 'QA-124' do
-  it 'test_case_1' do |example|
-    example.run_step('Pre-Requisites') do
-      example.run_step('Nested') do
-        expect(20).to be > 19
-      end
-    end
+  step('Add numbers')
+  def add(a, b)
+    a + b
+  end
 
-    example.run_step('Step2') do
-      expect(10).to be > 19
+  step('Substract')
+  def substract(a, b)
+    a - b
+  end
+
+  after do |ex|
+    ex.run_step('add after attach') do
+      Allure.add_attachment(
+        name: 'After hook attach',
+        source: 'Attachment',
+        type: Allure::ContentType::TXT
+      )
     end
   end
 
-  it 'must be pending example'
+  it 'test_case_1', tms: 'QA-124', severity: :normal do |example|
+    MyTestHelper.log('I am test_case_1')
 
-  it 'must be pending example 2'
+    res = add(1, 2)
+
+    example.run_step('Pre-Requisites') do
+      example.run_step('Nested') do
+        expect(res).to eq(3)
+      end
+    end
+  end
+
+  it 'test_case_2', tms: 'QA-123', severity: :critical do |example|
+    MyTestHelper.log('I am test_case_2')
+
+    example.run_step('expectation') do
+      expect(substract(1, 2)).to eq(-1)
+    end
+  end
 end
