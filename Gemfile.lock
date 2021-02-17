@@ -1,11 +1,11 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    allure-rspec (2.13.8.1)
-      allure-ruby-commons (= 2.13.8.1)
+    allure-rspec (2.13.8.2)
+      allure-ruby-commons (= 2.13.8.2)
       rspec-core (>= 3.8, < 4)
       ruby2_keywords (~> 0.0.2)
-    allure-ruby-commons (2.13.8.1)
+    allure-ruby-commons (2.13.8.2)
       mime-types (>= 3.3, < 4)
       oj (>= 3.10, < 4)
       require_all (>= 2, < 4)
