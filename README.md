@@ -15,7 +15,7 @@ To launch this example you should install Ruby and the allure-rspec gem.
 ### 3. Install Ruby
 
 ```bash
-rbenv install 3.0.0
+rbenv install
 ```
 
 ### 4. Install bundler
