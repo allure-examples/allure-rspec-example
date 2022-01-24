@@ -1,10 +1,10 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    allure-rspec (2.15.0)
-      allure-ruby-commons (= 2.15.0)
+    allure-rspec (2.16.0)
+      allure-ruby-commons (= 2.16.0)
       rspec-core (>= 3.8, < 4)
-    allure-ruby-commons (2.15.0)
+    allure-ruby-commons (2.16.0)
       mime-types (>= 3.3, < 4)
       oj (>= 3.10, < 4)
       require_all (>= 2, < 4)
@@ -14,10 +14,10 @@ GEM
     macaddr (1.7.2)
       systemu (~> 2.6.5)
     method_source (1.0.0)
-    mime-types (3.3.1)
+    mime-types (3.4.1)
       mime-types-data (~> 3.2015)
-    mime-types-data (3.2021.0901)
-    oj (3.13.8)
+    mime-types-data (3.2022.0105)
+    oj (3.13.11)
     pry (0.14.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
@@ -34,7 +34,7 @@ GEM
     rspec-mocks (3.10.2)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.10.0)
-    rspec-support (3.10.2)
+    rspec-support (3.10.3)
     systemu (2.6.5)
     uuid (2.3.9)
       macaddr (~> 1.0)
@@ -45,7 +45,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  allure-rspec (~> 2.15.0)
+  allure-rspec (~> 2.16.0)
   pry (~> 0.14.1)
   rspec (~> 3.10)
 
