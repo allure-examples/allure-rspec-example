@@ -13,6 +13,11 @@ describe 'allure features' do
     a - b
   end
 
+  step('Failed assertion')
+  def fail
+    expect(2).to eq(1)
+  end
+
   after do |ex|
     ex.run_step('add after attach') do
       Allure.add_attachment(
@@ -41,5 +46,9 @@ describe 'allure features' do
     example.run_step('expectation') do
       expect(substract(1, 2)).to eq(-1)
     end
+  end
+
+  it 'test_case_3' do
+    fail
   end
 end
