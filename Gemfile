@@ -2,6 +2,8 @@
 
 source 'https://rubygems.org'
 
-gem 'allure-rspec', '~> 2.21.1'
+# allure dependency is fetched from git mainly for purpose of testing allure-ruby
+# just the version should be used if this is used as reference for other projects
+gem 'allure-rspec', '~> 2.21.1', github: 'allure-framework/allure-ruby', branch: 'master'
 gem 'pry', '~> 0.14.2'
 gem 'rspec', '~> 3.12'
