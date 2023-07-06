@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/allure-framework/allure-ruby.git
-  revision: 28a959f7dbca2f783fecf9a06c87b9b631444949
+  revision: 39a1ddaa3cbde9b90f2abc1a0c0905793a5bf707
   branch: master
   specs:
     allure-rspec (2.22.0)
