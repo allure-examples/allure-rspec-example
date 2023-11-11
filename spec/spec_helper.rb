@@ -5,6 +5,7 @@ require 'allure-rspec'
 require 'pry'
 
 require_relative 'test_helper'
+require_relative 'shared_examples'
 
 AllureRspec.configure do |c|
   c.results_directory = 'report/allure-results'

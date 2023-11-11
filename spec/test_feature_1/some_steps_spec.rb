@@ -24,4 +24,6 @@ describe 'Some usecase 1', severity: :normal do
   it 'must be broken test case' do
     raise 'Unexpected exception'
   end
+
+  it_behaves_like 'shared spec'
 end
