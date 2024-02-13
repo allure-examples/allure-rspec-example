@@ -6,4 +6,4 @@ source 'https://rubygems.org'
 # just the version should be used if this is used as reference for other projects
 gem 'allure-rspec', '~> 2.23.0', github: 'allure-framework/allure-ruby', branch: 'master'
 gem 'pry', '~> 0.14.2'
-gem 'rspec', '~> 3.12'
+gem 'rspec', '~> 3.13'
