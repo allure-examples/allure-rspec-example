@@ -1,12 +1,12 @@
 GIT
   remote: https://github.com/allure-framework/allure-ruby.git
-  revision: 5614680a6c95be401e050a68919749e0d2c81fd1
+  revision: cd61bb066abe8f522d7f48499122c5a7772dce37
   branch: master
   specs:
-    allure-rspec (2.23.0)
-      allure-ruby-commons (= 2.23.0)
+    allure-rspec (2.24.0)
+      allure-ruby-commons (= 2.24.0)
       rspec-core (>= 3.8, < 4)
-    allure-ruby-commons (2.23.0)
+    allure-ruby-commons (2.24.0)
       mime-types (>= 3.3, < 4)
       require_all (>= 2, < 4)
       rspec-expectations (~> 3.12)
@@ -50,7 +50,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  allure-rspec (~> 2.23.0)!
+  allure-rspec (~> 2.24.0)!
   pry (~> 0.14.2)
   rspec (~> 3.13)
 
