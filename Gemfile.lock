@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/allure-framework/allure-ruby.git
-  revision: 013620b99740bd1f94119d959b8dca6ae90d137c
+  revision: aafdf273f477e33e75570984131ced9bda302142
   branch: master
   specs:
     allure-rspec (2.24.5)
@@ -22,7 +22,7 @@ GEM
     method_source (1.0.0)
     mime-types (3.5.2)
       mime-types-data (~> 3.2015)
-    mime-types-data (3.2024.0507)
+    mime-types-data (3.2024.0604)
     pry (0.14.2)
       coderay (~> 1.1)
       method_source (~> 1.0)
