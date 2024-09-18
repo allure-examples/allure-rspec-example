@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/allure-framework/allure-ruby.git
-  revision: aa242daa8489e53cef1f7dbfb57ab4f7da788b49
+  revision: 388c7069a4dc8fa53e7c0b2bb6be99331d034f98
   branch: master
   specs:
     allure-rspec (2.25.0)
@@ -30,7 +30,7 @@ GEM
       rspec-mocks (~> 3.13.0)
     rspec-core (3.13.1)
       rspec-support (~> 3.13.0)
-    rspec-expectations (3.13.2)
+    rspec-expectations (3.13.3)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.13.0)
     rspec-mocks (3.13.0)
